@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div>
-      <nav className="bg-gray-800">
+      <nav className="white">
         <div className="flex px-4 sm:px-6">
           <div className="flex items-center h-16">
             <div className="flex-shrink-0">
               <Link to="/">
                 <img
-                  className="h-8 w-8"
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                   className="h-16 w-16"
+                  src="https://pbs.twimg.com/profile_images/1158476160210210817/5L23zHvW_400x400.jpg"
                   alt="UWP"
                 />
               </Link>
@@ -26,13 +26,13 @@ function NavBar() {
                 </Link>
                 <Link
                   to="/game"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md "
+                  className="black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md "
                 >
                   Projects
                 </Link>
                 <Link
                   to="/"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md "
+                  className="black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md "
                 >
                   Team
                 </Link>
